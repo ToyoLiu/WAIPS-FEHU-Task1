@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# API keys and local environment
+.env
+.env.*
+*.key
+secrets.*
+
+# Official data / generated outputs
+ntcir19_fehu-master/
+dataset/
+output/
+logs/
+cache/
+error_analysis/
+
+# Submission artifacts
+*.zip
+submission*/
+
+# Large local documents and slides
+*.pptx
+*.docx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
